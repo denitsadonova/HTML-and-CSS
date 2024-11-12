@@ -1,0 +1,39 @@
+.header {
+    width: 100%;
+    height: auto;
+    background-image: url(images/poster.jpg);
+    background-size: 100%;
+    background-repeat: round;
+    color: white;
+
+}
+.logo-nav {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 150px;
+    aspect-ratio: 1/1;
+    padding: 3em 2em; 
+}
+nav ul {
+    display: flex;
+    gap: 2em;
+    padding: 1em 1em;
+    list-style: none;
+    text-decoration: none;
+}
+.title-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.title {
+    padding: 1em 2em;
+    font-size: 90px;
+}
+.main-info {
+    width: 500px;
+    padding-bottom: 5em;
+}

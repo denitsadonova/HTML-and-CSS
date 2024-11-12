@@ -1,0 +1,41 @@
+
+@media screen and (width <= 600px) {
+    .home-left {
+        display: none;
+    }
+
+    .home-cards-container {
+        flex: 0 0 47%;
+        gap: 5px;
+    }
+
+    .category-card-image {
+        width: 100%;
+        height: 260px;
+        aspect-ratio: 1/1;
+    }
+    .section-container {
+        flex-direction: column;
+    }
+    .home-text29 {
+        margin: 10px auto;
+    }
+    .home-text30 {
+        width: 100%;
+        font-size: 17px;
+    }
+    .button {
+        margin-bottom: 20px;
+    }
+    .home-image6 {
+        width: 100%;
+    }
+    .home-footer1 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        flex-direction: column;
+    }
+
+
+
+}

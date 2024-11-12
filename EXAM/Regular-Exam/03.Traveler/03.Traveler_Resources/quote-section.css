@@ -1,0 +1,14 @@
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background: rgb(248 240 233);
+}
+.quote {
+    padding: 0.5em 3em;
+    font-size: 68px;
+    font-style: oblique;
+}
+.subtitle-quote {
+    font-weight: 500;
+    padding: 3em 0 0 16em;
+}

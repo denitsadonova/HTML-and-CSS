@@ -1,0 +1,52 @@
+@import url(reset.css);
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    max-width: 1200px;
+    font: inherit;
+    background: #1882b6;
+}
+
+body main .subtitle {
+    padding: 2em 2em;
+}
+
+body main .title {
+    padding: 0em 3em;
+    color: white;
+    padding-bottom: 0.5em;
+}
+body main .chillhop {
+    display: flex;
+}
+
+body main .wrapper {
+width: 50%;}
+
+body main .info {
+    line-height: 3ch;
+    padding-left: 2em;
+    padding-bottom: 2em;
+}
+
+body main .image {
+    display: block;
+    width: 25em;
+    padding-top: 3em;
+    padding-left: 2em;
+}
+ body main .btn {
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 0.5em;
+    color: black;
+    padding: 0.5em 0.5em;
+    margin-left: 4em;
+ }
+ body main .contact {
+    background-color: #b3436d;
+    color: white;
+ }

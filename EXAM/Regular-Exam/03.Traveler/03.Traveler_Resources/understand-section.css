@@ -1,0 +1,41 @@
+.container-understand {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+}
+.understand-section {
+    padding-top: 2em;
+    background: rgb(248 240 233);
+    padding-bottom: 2em;
+}
+.subtitle-understand {
+        font-family: 'Karla', serif;
+        text-align: center;
+        font-size: 30px;
+        max-width: 250px;
+}
+.picture {
+    width: 300px;
+height: auto;
+}
+.info {
+    max-width: 500px;
+    padding-bottom: 1em;
+}
+.button {
+    display: block;
+    width: 105px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    background: white;
+    color: black;
+    padding: 0.5em 0.5em;
+    margin-left: 26.5em;
+}
+.main.button {
+    margin: 0em auto;
+    width: 125px;
+    
+}

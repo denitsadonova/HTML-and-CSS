@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Serif);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font: 20px/1.5 "PT Sans", sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "PT Serif";
+}
+body {
+        font: inherit;
+}
+.first_section {
+    background-image: url(images/background.jpg);
+    background-size: 100%;
+}
+.nav-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+    list-style: none outside;
+    gap: 0.5em;
+}
+nav ul li {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.logo {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 1em;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 500px;
+    gap: 1em;
+}
+.header {
+    font-size: 2em;
+    line-height: 2em;
+    padding-left: 2em;
+    color: white;
+}
+.info {
+    color: white;
+    padding-left: 4em;
+    padding-bottom: 5em;
+}
+.second_section {
+    padding-top: 2em;
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex: 1 1 50%;
+    border-bottom: 2px solid rgb(194, 192, 192);
+}
+.business {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+.second_section .info {
+    color: gray;
+    padding-bottom: 1em;
+}
+.more {
+    display: block;
+    text-decoration: none;
+    padding: 1em;
+    border: 1px solid rgb(235, 114, 77);
+    border-radius: 0.5em;
+    color: rgb(235, 114, 77);
+    background: white;
+}
+.third_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    padding-top: 1em;
+}
+.third_section .subtitle {
+    padding-top: 1em;
+    color: rgb(235, 114, 77);
+}
+.third_section .info {
+    color: gray;
+    padding-bottom: 1em;
+}
+.sponsors img{
+width: 80px;
+height: 80px;
+padding: 1em;
+border-radius: 4em;
+background: rgb(204, 200, 200);
+}

@@ -1,0 +1,36 @@
+@media (max-width: 600px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-title {
+        padding: 2em 0;
+    }
+
+    .header-title h1 {
+        font-size: 33px;
+    }
+
+    .choose-us {
+        display: flex;
+        justify-content: center;
+    }
+
+    .choose-us ul {
+        flex-direction: column;
+        max-width: 380px;
+        gap: 1em;
+    }
+
+    .about-us p:nth-child(3) {
+        width: 100%;
+    }
+
+    .team-description ul li img {
+        width: 150px;
+        height: 200px;
+        margin-right: 2em;
+    }
+}

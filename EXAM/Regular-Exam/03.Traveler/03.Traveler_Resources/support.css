@@ -1,0 +1,15 @@
+.support {
+    display: flex;
+    flex-direction: column;
+    background: rgb(225 71 71);
+    color: white;
+    align-items: center;
+    gap: 2em;
+    padding: 2em 0 2em 0;
+    text-align: center;
+}
+.support .info {
+    max-width: 300px;
+    padding-bottom: 2em;
+    font: 18px 'Karla';
+}

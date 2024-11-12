@@ -1,0 +1,27 @@
+.find-section {
+    display: flex;
+    flex-direction: column;
+    background: rgb(225 71 71);
+    color: white;
+    align-items: center;
+    gap: 2em;
+    padding: 2em 0 2em 0;
+    text-align: center;
+}
+
+.subtitle-find {
+    font-family: 'Karla', serif;
+    font-size: 30px;
+    padding-top: 1.5em;
+}
+.info-find {
+    max-width: 600px;
+}
+.find-section .button {
+    padding: 1em 1em;
+    margin-left: 0;
+    width: 150px;
+    border-radius: 3em;
+    background: rgb(250 216 122);
+    border: 0;
+}
